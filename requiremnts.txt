@@ -1,0 +1,8 @@
+geopandas
+folium
+shapely
+pandas
+numpy
+tabulate
+requests
+python-dotenv
