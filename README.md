@@ -1,4 +1,78 @@
 🌎 Convergencia Territorial — MVP
+
+✅ BLOQUE INICIAL PARA AÑADIR AL README (crear carpeta y estructura)
+# 🗂️ Estructura requerida del proyecto (antes de ejecutar el MVP)
+
+Para correr correctamente este MVP, el usuario debe **crear una carpeta en el Escritorio** con la siguiente estructura exacta:
+
+
+
+C:\Users\TU_USUARIO\Desktop\convergencia_territorio
+│
+├── inputs
+│ └── shapes
+│ ├── Consejo_Comunitario_Titulado
+│ ├── Resguardo_Indigena_Formalizado
+│ ├── Zonas_de_Reserva_Campesina_Constituida
+│ ├── Zonas_en_conflicto
+│ └── MGN2024_00_COLOMBIA
+│
+├── outputs
+│ ├── mapas
+│ ├── tablas
+│ ├── micrositio
+│ └── llm
+│
+├── proyecto_convergencia_territorios
+│ └── venv\ (entorno virtual generado por el usuario)
+│
+├── conv.py
+├── requirements.txt
+└── README.md
+
+
+## 📌 Importante
+
+- **La carpeta `inputs/shapes/` NO se incluye en GitHub** porque contiene los archivos geográficos oficiales (shapefiles) que son pesados.
+- El usuario debe **descargar las shapes desde las fuentes oficiales** listadas más abajo en este README.
+- El script `conv.py` está preparado para tomar automáticamente los insumos desde:
+
+
+
+inputs/shapes/
+
+
+- Las carpetas dentro de `outputs/` se generan solas cuando se corre el script por primera vez.
+
+## 🔧 Antes de ejecutar
+
+1. Crear la carpeta `convergencia_territorio` en el escritorio.
+2. Descargar las shapes oficiales y colocarlas en `inputs/shapes/` respetando los nombres.
+3. Crear un entorno virtual dentro de `proyecto_convergencia_territorios/`.
+4. Instalar dependencias:
+
+
+
+pip install -r requirements.txt
+
+
+5. Ejecutar:
+
+
+
+python conv.py
+
+
+El sistema generará:
+- Mapas interactivos (completo y versión ligera)
+- Tablas geográficas integradas por departamento
+- JSON para el micrositio
+- HTML final del micrositio dentro de `outputs/micrositio/`
+
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+🌎 Convergencia Territorial — MVP
 Ministerio de Minas y Energía • Hackatón “Desafío Inteligente”
 
 Este repositorio contiene el MVP funcional para la identificación, análisis y visualización de convergencias territoriales en Colombia entre:
