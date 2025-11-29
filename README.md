@@ -1,6 +1,6 @@
 🌎 Convergencia Territorial — MVP
 
-✅ BLOQUE INICIAL PARA AÑADIR AL README (crear carpeta y estructura)
+✅ BLOQUE INICIAL (crear carpeta y estructura)
 # 🗂️ Estructura requerida del proyecto (antes de ejecutar el MVP)
 
 Para correr correctamente este MVP, el usuario debe **crear una carpeta en el Escritorio** con la siguiente estructura exacta:
